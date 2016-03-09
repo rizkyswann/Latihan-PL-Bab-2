@@ -18,5 +18,12 @@ public class mainProgram{
 		mhs[a].dataMhs(jumlah_mahasiswa, nama_mahasiswa, nim, jumlahPutaran, jumlah_waktu);
 		mhs[a].hitungJarak(p,l);
 	}
+
+	System.out.println("##OUTPUT##");
+	for (int b=0; b<jumlah_mahasiswa; b++){
+		mhs[b].displayData();
+	}
+
+	
 	}
 }

@@ -18,4 +18,8 @@ public void hitungJarak (int p, int l){
 	jarak = this.jumlahPutaran*keliling;
 }
 
+public void displayData(){
+	System.out.printf("%s %.0f \n",nama_mahasiswa,jarak);
+}
+
 }
