@@ -23,7 +23,10 @@ public class mainProgram{
 	for (int b=0; b<jumlah_mahasiswa; b++){
 		mhs[b].displayData();
 	}
-
-	
+	for (int k=1; k<jumlah_mahasiswa; k++){
+		if (mhs[k].perbandinganWaktu(mhs[k-1]))
+			max = k;
+	}
+	System.out.println(mhs[max].displayNama());
 	}
 }

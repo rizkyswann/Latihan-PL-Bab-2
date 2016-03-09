@@ -1,1 +1,3 @@
-Letakkan SS dari program dengan disertai dengan nama dan nim serta kelas anda
+Nama : Muhammad Rizky Setiawan
+Kelas : TIF-H
+NIM : 155150201111134

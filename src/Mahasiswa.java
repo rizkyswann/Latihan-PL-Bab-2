@@ -22,4 +22,15 @@ public void displayData(){
 	System.out.printf("%s %.0f \n",nama_mahasiswa,jarak);
 }
 
+public double hitungPemenang(){
+	return jarak/this.jumlah_waktu;
+}
+
+public boolean perbandinganWaktu (Mahasiswa mhs){
+	return (hitungPemenang() > mhs.hitungPemenang())? true:false;
+}
+
+public String displayNama(){
+	return nama_mahasiswa;
+}
 }
