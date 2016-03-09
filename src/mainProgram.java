@@ -14,6 +14,9 @@ public class mainProgram{
 		String nama_mahasiswa = masukan.next();
 		double jumlahPutaran = masukan.nextDouble();
 		double jumlah_waktu = masukan.nextDouble();
+		mhs[a]= new Mahasiswa();
+		mhs[a].dataMhs(jumlah_mahasiswa, nama_mahasiswa, nim, jumlahPutaran, jumlah_waktu);
+		mhs[a].hitungJarak(p,l);
 	}
 	}
 }
