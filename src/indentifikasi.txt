@@ -1,0 +1,5 @@
+Identifikasi :
+class : Mahasiswa
+object : mhs0, mhs1... mhsn-1
+method : dataMhs, hitungJarak, displayData, hitungPemenang, PerbandinganWaktu, displayNama
+attribut : nama_mahasiswa, nim, jarak, jumlahPutaran, jumlah_waktu, keliling, jumlah_mahasiswa
